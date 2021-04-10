@@ -260,10 +260,10 @@ animation-iteration-count: infinite;
     opacity: 0
   }
   }
- @media (max-height: 100px) {
+ @media (max-height: 500px) {
    div {
      height: auto;
-     width: 200px;
+     width: 20vw;
 
    }
  }
