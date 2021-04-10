@@ -1,3 +1,8 @@
+img {
+  border-radius: 60px;
+}
+
+
 h1 {
   position: absolute; top: 40%; left: 40%;
   animation-name: a;
@@ -18,8 +23,8 @@ h1 {
 
 .sans {
 background-color: hsl(215, 66%, 58%);
-height: 200px;
-width: 200px;
+height: 30vh;
+width: 15vw;
 text-align: center;
 border-style: solid;
 border-radius: 50%;
@@ -35,8 +40,8 @@ position: absolute; left: 20%; top: 20%;
 
 .san {
 background-color: hsl(215, 66%, 58%);
-height: 200px;
-width: 200px;
+height: 30vh;
+width: 15vw;
 text-align: center;
 border-style: solid;
 border-radius: 50%;
@@ -52,8 +57,8 @@ position: absolute; left: 40%; top: 20%;
 
 .sa {
 background-color: hsl(215, 66%, 58%);
-height: 200px;
-width: 200px;
+height: 30vh;
+width: 15vw;
 text-align: center;
 border-style: solid;
 border-radius: 50%;
@@ -69,8 +74,8 @@ position: absolute; left: 60%; top: 20%;
 
 .s {
 background-color: hsl(215, 66%, 58%);
-height: 200px;
-width: 200px;
+height: 30vh;
+width: 15vw;
 text-align: center;
 border-style: solid;
 border-radius: 50%;
@@ -185,3 +190,73 @@ animation-iteration-count: infinite;
   opacity: 0;
 }
 }
+
+#b {
+  position: absolute; top: 40%; left: 48%;
+  animation-name: b;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes b {
+ 10% {
+   opacity: 1
+ }
+ 20% {
+   opacity: 0
+ }
+ 100% {
+   opacity: 0
+ }
+}
+
+#c {
+  position: absolute; top: 40%; left: 48%;
+  animation-name: c;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes c {
+ 0% {
+   opacity: 0
+ }
+10% {
+  opacity: 0
+}
+ 20% {
+   opacity: 1
+ }
+ 30% {
+   opacity: 0
+ }
+ 100%{
+   opacity: 0
+ }
+}
+
+#d {
+  position: absolute; top: 40%; left: 48%;
+  animation-name: d;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes d {
+  0% {
+    opacity: 0
+  }
+  20% {
+    opacity: 0
+  }
+
+  30% {
+    opacity: 1
+  }
+  35% {
+    opacity: 0
+  }
+  100%{
+    opacity: 0
+  }
+  }
