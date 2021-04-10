@@ -260,7 +260,7 @@ animation-iteration-count: infinite;
     opacity: 0
   }
   }
- @media (max-width: 350px) {
+ @media (max-width: 100px) {
    div {
      height: auto;
      width: 200px;
