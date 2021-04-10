@@ -263,7 +263,7 @@ animation-iteration-count: infinite;
  @media (max-width: 1000px) {
    div {
      height: auto;
-     width: 5vw;
+     width: 200px;
 
    }
  }
